@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: relogio;
+    src: url('/fonts/alarmclock.ttf');
+}
+
+body{
+    background: linear-gradient(darkcyan, darkblue);
+    /*background: linear-gradient(rgba(178, 7, 7, 0.952), rgb(7, 56, 192));*/
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.relogio{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 600px;
+    height: 250px;
+    border-radius: 8px;
+    gap: 6px;
+    background-color: whitesmoke;
+    box-shadow: 5px 5px 13px rgba(0, 0, 0, 0.716);
+    padding: 0 15px;
+}
+
+.relogio div{
+    width: 200px;
+    height: 200px;
+    background-color:rgba(60, 179, 114, 0.587);
+    color: midnightblue;
+    border-radius: 7px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.relogio div p{
+    font-size: 80px;
+    font-family: relogio;
+}
+
+.relogio h1{
+    font-size: 90px;
+    font-family: relogio;
+}
